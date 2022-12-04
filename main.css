@@ -1,0 +1,85 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+
+    width: 1535px;
+    height: 112px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(252, 0, 0);
+
+}
+.menu{
+    /* กล่องเมนู */
+    background-color: rgb(0, 255, 34);
+    text-align: center;
+    height: 500px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    width: 350px;
+    margin: 2rem auto;
+    height: 500px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    overflow: hidden;
+}
+.img{
+    width: 350px;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+}
+.content{
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 160px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.content h3{
+    border-bottom: 1px solid #e5e5e5;
+}
+.content h4{
+    margin:  1rem 0;
+    color: red;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.ft-l{
+    display: flex;
+    align-items: center;
+    padding-left: 0rem;
+}
+.ft-l img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.ft-l h4{
+    margin-left: .5rem;
+}
+.ft-r{
+    padding-right: 1rem;
+}
